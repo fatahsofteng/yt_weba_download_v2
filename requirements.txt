@@ -1,2 +1,7 @@
+# Original dependencies (for TurboScribe API)
 requests>=2.31.0
 zstandard>=0.22.0
+
+# New dependencies (for YouTube downloader)
+yt-dlp>=2025.11.12
+mutagen>=1.47.0
