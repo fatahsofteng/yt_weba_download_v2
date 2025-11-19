@@ -1,0 +1,12 @@
+from lead:
+- add limit download / IP, metadata 1 folder for 1 video/file.
+- ada rate limit sama sleep interval nya mas di sini:
+https://github.com/yt-dlp/yt-dlp
+- handle ban > 403, untuk saat ini coba yang free dulu.
+alternative: menggunakan decodo (yang paling murah), atau yang lainnya seperti:
+https://decodo.com/proxies/isp-proxies/pricing
+https://oxylabs.io/pricing/isp-proxies
+https://brightdata.com/products/web-scraper
+- di lambatin aja si download rate + interval pervideonya aga lama mas
+
+Update, strict requirements for adjusting the audio file download format: the audio file container format must be m4a, and the audio sampling rate must be 44kHz.

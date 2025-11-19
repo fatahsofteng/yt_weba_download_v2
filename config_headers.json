@@ -1,0 +1,19 @@
+{
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0",
+  "Accept": "*/*",
+  "Accept-Language": "zh-TW,zh;q=0.9",
+  "Accept-Encoding": "gzip, deflate, br, zstd",
+  "Content-Type": "application/json",
+  "Origin": "https://turboscribe.ai",
+  "Referer": "https://turboscribe.ai/zh-TW/downloader/youtube/wav",
+  "DNT": "1",
+  "Sec-CH-UA": "\"Chromium\";v=\"142\", \"Microsoft Edge\";v=\"142\", \"Not_A Brand\";v=\"99\"",
+  "Sec-CH-UA-Mobile": "?0",
+  "Sec-CH-UA-Platform": "\"Windows\"",
+  "Sec-Fetch-Dest": "empty",
+  "Sec-Fetch-Mode": "cors",
+  "Sec-Fetch-Site": "same-origin",
+  "X-Lev-XHR": "",
+  "X-Turbolinks-Loaded": "",
+  "Priority": "u=1, i"
+}
