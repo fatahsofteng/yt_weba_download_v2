@@ -160,7 +160,7 @@ class YouTubeDownloader:
 
             # Audio processing - Convert to 44kHz mono
             'postprocessor_args': [
-                '-ar', '44100',  # Sample rate: 44kHz (STRICT REQUIREMENT)
+                '-ar', '44000',  # Sample rate: 44kHz EXACTLY (STRICT REQUIREMENT)
                 '-ac', '1',      # Channels: Mono (convert to 1 channel)
             ],
 
@@ -320,8 +320,8 @@ class YouTubeDownloader:
             audio_metadata = self._extract_audio_metadata(audio_file)
 
             # Verify strict requirements
-            if audio_metadata['sample_rate'] != 44100:
-                logger.warning(f"⚠ Sample rate is {audio_metadata['sample_rate']}Hz, expected 44100Hz")
+            if audio_metadata['sample_rate'] != 44000:
+                logger.warning(f"⚠ Sample rate is {audio_metadata['sample_rate']}Hz, expected 44000Hz")
             if audio_metadata['channels'] != 1:
                 logger.warning(f"⚠ Channels: {audio_metadata['channels']}, expected 1 (mono)")
 

@@ -6,7 +6,7 @@ Automated YouTube audio downloader with comprehensive features for ASR calibrati
 
 ### ✅ Strict Audio Format Requirements
 - **Container Format**: m4a (AAC codec)
-- **Sample Rate**: 44kHz (44100 Hz) - STRICTLY ENFORCED
+- **Sample Rate**: 44kHz (44000 Hz) - STRICTLY ENFORCED
 - **Channels**: Mono (1 channel) - automatically converted
 - **Quality**: Highest available bitrate
 
@@ -163,7 +163,7 @@ Example `{video_id}.json`:
 
   "audio": {
     "codec": "aac",
-    "sample_rate": 44100,
+    "sample_rate": 44000,
     "bit_rate": 160000,
     "channels": 1,
     "duration_sec": 512.23,
@@ -181,7 +181,7 @@ The downloader strictly enforces the following audio specifications:
 
 1. **Container Format**: M4A (MPEG-4 Audio)
 2. **Codec**: AAC (Advanced Audio Coding)
-3. **Sample Rate**: 44.1 kHz (44100 Hz)
+3. **Sample Rate**: 44 kHz (44000 Hz EXACTLY)
 4. **Channels**: Mono (1 channel)
 5. **Bitrate**: Highest available (typically 128-192 kbps)
 
